@@ -5,17 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --output dist/bundle.js"
+    "build": "webpack --output-path dist/bundle.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
-  },
   "dependencies": {
     "normalize.css": "^8.0.1",
     "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
